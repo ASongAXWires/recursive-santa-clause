@@ -1,11 +1,11 @@
 {
   "name": "recursive-santa",
   "version": "1.0.0",
-  "description": "",
+  "description": "In the initial commit to this project, you have been provided with files that contain a JavaScript module and some associated tests. Currently the `deliverPresents` function is not implemented recursively causing the tests to fail. Use what we have learned to write a recursive solution to the problem of delivering presents.",
   "main": "santa.js",
   "scripts": {
-    "lint": "./node_modules/.bin/eslint --format codeframe .",
-    "test": "./node_modules/.bin/mocha tests.js"
+    "lint": "eslint --format codeframe .",
+    "test": "mocha tests.js"
   },
   "author": "Stack Education",
   "license": "ISC",
@@ -16,5 +16,13 @@
     "mocha": "^6.2.0",
     "sinon": "^7.4.1",
     "sinon-chai": "^3.3.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ASongAXWires/recursive-santa-clause.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ASongAXWires/recursive-santa-clause/issues"
+  },
+  "homepage": "https://github.com/ASongAXWires/recursive-santa-clause#readme"
 }
